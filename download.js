@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const path = require('path');
 
 // Read JSON file
-const videoList = JSON.parse(fs.readFileSync('vid.json', 'utf8'));
+const videoList = JSON.parse(fs.readFileSync('/content/run/vid.json', 'utf8'));
 
 // Directory to save the files
 const outputDir = '/content/drive/MyDrive/Assets';

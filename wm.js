@@ -6,7 +6,7 @@ const path = require('path');
 const lutFilePath = path.resolve('/content/run/lut.cube');
 const overlayImagePath = path.resolve('/content/run/wm.png');
 const videoDir = path.resolve('/content/drive/MyDrive/Assets');
-const updatedDir = path.resolve('/content/drive/MyDrive/Updated');
+const updatedDir = path.resolve('/content/run/Updated');
 
 if (!fs.existsSync(updatedDir)) {
   fs.mkdirSync(updatedDir);

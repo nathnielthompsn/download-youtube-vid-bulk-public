@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Define paths to your LUT file and overlay image
-const lutFilePath = path.resolve('lut.cube');
-const overlayImagePath = path.resolve('wm.png');
+const lutFilePath = path.resolve('/content/run/lut.cube');
+const overlayImagePath = path.resolve('/content/run/wm.png');
 const videoDir = path.resolve('/content/drive/MyDrive/Assets');
 const updatedDir = path.resolve('/content/drive/MyDrive/Updated');
 

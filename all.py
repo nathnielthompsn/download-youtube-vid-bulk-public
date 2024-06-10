@@ -5,7 +5,7 @@ import subprocess
 video_dir = '/content/drive/MyDrive/Assets'
 output_dir = '/content/drive/MyDrive/Output'
 lut_file = '/content/run/lut.cube'
-watermark_image = 'content/run/wm.png'
+watermark_image = '/content/run/wm.png'
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
